@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible different combination of three digits.
- * Return: Always 0 (success)
+ * main - prints all possible different combinations of three digits
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -20,8 +20,8 @@ int main(void)
 				if (!((ones == tens) || (tens == hundreds) || (tens > ones) || (hundreds > tens)))/*eliminates repitition*/
 				{
 					putchar(hundreds);
-					putchar(tens);
 					putchar(ones);
+					putchar(tens);
 					if (!(ones == '9' && hundreds == '7' && tens == '8'))/*adds commas and spaces*/
 					{
 						putchar(',');
