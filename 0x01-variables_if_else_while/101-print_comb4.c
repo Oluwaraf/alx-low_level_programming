@@ -2,7 +2,6 @@
 
 /**
  * main - prints all possible different combination of three digits.
- *
  * Return: Alway 0 (success)
  */
 
